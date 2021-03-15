@@ -1,0 +1,24 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+---
+pt-BR:
+  gdpr:
+    exports:
+      data_restriction: A restrição de dados agora está habilitada.
+      data_erasure: Os dados foram excluídos.
+      data_export: A exportação de dados será enviada por e-mail ao usuário em breve.
+      resume_processing: A restrição de dados agora está desabilitada.
+      error: Ocorreu um erro ao atender à solicitação.
+    mailer:
+      hello: Olá
+      warning: Segue em anexo dados que você requisitou.
+  spree:
+    choose_an_email: Escolha um email
+    new_gdpr_request: Novo pedido LGPD
+    admin:
+      tab:
+        gdpr: LGPD
+      gdpr:
+        orders_count: Contagem de pedidos
+    actions:
+      run: Rodar

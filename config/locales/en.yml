@@ -9,6 +9,9 @@ en:
       data_export: The data export will be emailed to the user shortly.
       resume_processing: The data restriction is now disabled.
       error: There was an error serving the request.
+    mailer:
+      hello: Hello
+      warning: Attached is the data export you have requested.
   spree:
     choose_an_email: Choose an email
     new_gdpr_request: New GDPR request
